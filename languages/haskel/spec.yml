@@ -1,0 +1,41 @@
+
+apiVersion: lang/v1
+kind: language
+metadata:
+  name: haskel
+  version: c99
+  tags: []
+
+spec:
+  keywords: 20
+  paradigms:
+    - name : functional
+      supported: false
+    - name : declarative
+      supported:  false
+    - name : object-oriented
+      supported: false
+    - name : procedural
+      supported: true
+    - name : dsl
+      supported: false
+  implimentation: compiled
+  garbage-collector: false
+  meta-programming: true
+  types:
+    checking: static
+    strength: strong
+    safe: false
+    generics: false
+  undefined-behaviour: true
+  toolchain:
+    standard-library-size:
+    standard-package-manager: false
+  ux:
+    initial-setup-time: 120
+    documentation-availability: false
+    community-size: medium
+    learning-curve: moderate
+    skill-ceiling: high
+  domains:
+    - systems-programming

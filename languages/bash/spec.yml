@@ -1,0 +1,41 @@
+
+apiVersion: lang/v1
+kind: language
+metadata:
+  name: bash
+  version: 3.2.57
+  tags: []
+
+spec:
+  keywords: 22
+  paradigms:
+    - name : functional
+      supported: false
+    - name : declarative
+      supported:  false
+    - name : object-oriented
+      supported: false
+    - name : procedural
+      supported: true
+    - name : dsl
+      supported: false
+  implimentation: interpreted
+  garbage-collector: false
+  meta-programming: true
+  types:
+    checking: dynamic
+    strength: weak
+    safe: true
+    generics: true
+  undefined-behaviour: false
+  toolchain:
+    standard-library-size: 0
+    standard-package-manager: false
+  ux:
+    initial-setup-time: 0
+    documentation-availability: true
+    community-size: large
+    learning-curve: moderate
+    skill-ceiling: high
+  domains:
+    - systems-programming

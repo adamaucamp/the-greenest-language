@@ -1,0 +1,9 @@
+
+
+setup:
+
+compile:
+	gcc
+
+measure:
+	

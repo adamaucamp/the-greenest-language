@@ -1,0 +1,53 @@
+
+apiVersion: lang/v1 # spec version
+kind: language
+metadata:
+  name: name
+  version: v0.0.0
+  tags: [tag]
+
+spec:
+  keywords: 0 # the number of keywords (reserved words) a langguage has
+  paradigms:
+    - name : functional
+      supported: true | false # does it support functional programming?
+    - name : declarative
+      supported: true | false
+    - name : object-oriented
+      supported: true | false # does it support oo programming?
+    - name : procedural
+      supported: true | false # does it support procedural programming?
+    - name : dsl
+      supported: true | false # is it a domain specific language ?
+
+  implimentation: compiled | virtual-machine | interpreted
+  garbage-collector: true | false
+  meta-programming: true | false
+  types:
+    checking: static | dynamic | combined
+    strength: strong | weak
+    safe: true | false
+    generics: true | false
+  undefined-behaviour: true | false
+  toolchain:
+    standard-library-size: 0
+    standard-package-manager: true | false
+  ux:
+    initial-setup-time: 0 # mins
+    documentation-availability: true | false
+    community-size: small | medium | large
+    learning-curve:  steep | moderate | gentle
+    skill-ceiling: low | moderate | high
+  domains:
+    - systems
+    - web
+    - arteficial-intelligence
+    - server
+    - database
+    - graphics
+    - dsl
+    - scripts
+    - mobile
+    - desktop
+    - embedded
+    - data-science

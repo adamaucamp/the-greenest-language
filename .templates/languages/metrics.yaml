@@ -1,0 +1,21 @@
+
+scenarios:
+  - name: scenario-name
+    code-size: 0
+    code-size-gzipped: 0
+    bin-size:
+      - target: platform/arch
+        size: 0
+    execution-time: 0.00
+    cpu:
+      max: 0
+      avg: 0
+    memory:
+      max: 0
+      avg: 0
+    disk:
+      max: 0
+      avg: 0
+    network:
+      sent: 0
+      recieved: 0

@@ -1,0 +1,41 @@
+
+apiVersion: lang/v1
+kind: language
+metadata:
+  name: go
+  version: 1.22.3
+  tags: []
+
+spec:
+  keywords: 25
+  paradigms:
+    - name : functional
+      supported: true
+    - name : declarative
+      supported:  false
+    - name : object-oriented
+      supported: true
+    - name : procedural
+      supported: true
+    - name : dsl
+      supported: false
+  implimentation: compiled
+  garbage-collector: true
+  meta-programming: false
+  types:
+    checking: static
+    strength: strong
+    safe: true
+    generics: true
+  undefined-behaviour: false
+  toolchain:
+    standard-library-size:
+    standard-package-manager: true
+  ux:
+    initial-setup-time: 30
+    documentation-availability: true
+    community-size: large
+    learning-curve: gentle
+    skill-ceiling: moderate
+  domains:
+    - systems-programming

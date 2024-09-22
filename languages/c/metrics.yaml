@@ -1,0 +1,20 @@
+scenarios:
+  - name: hello-world
+    code-size: 78
+    code-size-gzipped: 78
+    bin-size:
+      - target: darwin/arm64
+        size: 33432
+    execution-time: 0.123
+    cpu:
+      max:
+      avg:
+    memory:
+      max:
+      avg:
+    disk:
+      max:
+      avg:
+    network:
+      sent:
+      recieved:

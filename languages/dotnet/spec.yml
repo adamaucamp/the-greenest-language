@@ -1,0 +1,44 @@
+
+apiVersion: lang/v1
+kind: language
+metadata:
+  name: dotnet
+  version: 8.0.104
+  tags: []
+
+spec:
+  keywords: 100
+  paradigms:
+    - name : functional
+      supported: false
+    - name : declarative
+      supported:  false
+    - name : object-oriented
+      supported: true
+    - name : procedural
+      supported: true
+    - name : dsl
+      supported: false
+  implimentation: virtual-machine
+  garbage-collector: true
+  meta-programming: true
+  types:
+    checking: both
+    strength: strong
+    safe: true
+    generics: true
+  undefined-behaviour: true
+  toolchain:
+    standard-library-size:
+    standard-package-manager: true
+  ux:
+    initial-setup-time: 10
+    documentation-availability: true
+    community-size: large
+    learning-curve: moderate
+    skill-ceiling: high
+  domains:
+    - app
+    - web
+    - server
+    - desktop

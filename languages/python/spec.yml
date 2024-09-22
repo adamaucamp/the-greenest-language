@@ -1,0 +1,41 @@
+
+apiVersion: lang/v1
+kind: language
+metadata:
+  name: python
+  version: 3.13
+  tags: []
+
+spec:
+  keywords: 33
+  paradigms:
+    - name : functional
+      supported: true
+    - name : declarative
+      supported:  true
+    - name : object-oriented
+      supported: true
+    - name : procedural
+      supported: true
+    - name : dsl
+      supported: true
+  implimentation: interpreted
+  garbage-collector: true
+  meta-programming: true
+  types:
+    checking: dynamic
+    strength: strong
+    safe: true
+    generics: true
+  undefined-behaviour: false
+  toolchain:
+    standard-library-size:
+    standard-package-manager: true
+  ux:
+    initial-setup-time: 90
+    documentation-availability: false
+    community-size: medium
+    learning-curve: moderate
+    skill-ceiling: high
+  domains:
+    - systems-programming
