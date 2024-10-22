@@ -131,3 +131,4 @@ dist
 
 .venv
 graph.svg
+.DS_Store
